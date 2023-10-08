@@ -1,0 +1,22 @@
+{
+  "short_name": "Blogify",
+  "name": "Blogify",
+  "icons": [
+    {
+      "src": "S-Logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "S-Logo.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

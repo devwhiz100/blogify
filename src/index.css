@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~slick-carousel/slick/slick.css";
+
+@font-face {
+  font-family: IranSansWeb;
+  src: url(./Assets/Fonts/IRANSans-web.ttf);
+}
+
+@font-face {
+  font-family: dana;
+  src: url(./Assets/Fonts/Dana-FaNum-Bold.ttf);
+}
+
+body {
+  font-family: IranSansWeb;
+}
+
+.dana {
+  font-family: dana;
+}
+
+.card-shadow {
+  background: linear-gradient(320deg, #2e3a3f, transparent 100%) bottom;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.swiper {
+  width: 60vw;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.authorcardshadow {
+  box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
